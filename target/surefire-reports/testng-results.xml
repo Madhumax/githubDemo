@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="35114" started-at="2021-10-06T23:08:40 IST" finished-at="2021-10-06T23:09:15 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14587" started-at="2021-10-06T23:08:40 IST" finished-at="2021-10-06T23:08:55 IST">
+      <class name="mindtree.com.HomePageOpening">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:mindtree.com.HomePageOpening@51399530]" name="initialize" is-config="true" duration-ms="5180" started-at="2021-10-06T23:08:40 IST" finished-at="2021-10-06T23:08:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="HomePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:mindtree.com.HomePageOpening@51399530]" name="HomePageNavigation" duration-ms="6790" started-at="2021-10-06T23:08:45 IST" data-provider="getData" finished-at="2021-10-06T23:08:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[madhu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageNavigation -->
+        <test-method status="PASS" signature="HomePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:mindtree.com.HomePageOpening@51399530]" name="HomePageNavigation" duration-ms="2411" started-at="2021-10-06T23:08:52 IST" data-provider="getData" finished-at="2021-10-06T23:08:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[maru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[126]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageNavigation -->
+        <test-method status="PASS" signature="close()[pri:0, instance:mindtree.com.HomePageOpening@51399530]" name="close" is-config="true" duration-ms="124" started-at="2021-10-06T23:08:54 IST" finished-at="2021-10-06T23:08:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- mindtree.com.HomePageOpening -->
+    </test> <!-- Test -->
+    <test name="Checking Navigation Bar" duration-ms="11272" started-at="2021-10-06T23:08:55 IST" finished-at="2021-10-06T23:09:06 IST">
+      <class name="mindtree.com.ValidateNavigationBar">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:mindtree.com.ValidateNavigationBar@6a78afa0]" name="initialize" is-config="true" duration-ms="10922" started-at="2021-10-06T23:08:55 IST" finished-at="2021-10-06T23:09:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validationofNavBar()[pri:0, instance:mindtree.com.ValidateNavigationBar@6a78afa0]" name="validationofNavBar" duration-ms="108" started-at="2021-10-06T23:09:05 IST" finished-at="2021-10-06T23:09:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationofNavBar -->
+        <test-method status="PASS" signature="close()[pri:0, instance:mindtree.com.ValidateNavigationBar@6a78afa0]" name="close" is-config="true" duration-ms="240" started-at="2021-10-06T23:09:06 IST" finished-at="2021-10-06T23:09:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- mindtree.com.ValidateNavigationBar -->
+    </test> <!-- Checking Navigation Bar -->
+    <test name="Checking Text" duration-ms="9217" started-at="2021-10-06T23:09:06 IST" finished-at="2021-10-06T23:09:15 IST">
+      <class name="mindtree.com.validateTextonHomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:mindtree.com.validateTextonHomePage@5aa9e4eb]" name="initialize" is-config="true" duration-ms="8952" started-at="2021-10-06T23:09:06 IST" finished-at="2021-10-06T23:09:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validationofText()[pri:0, instance:mindtree.com.validateTextonHomePage@5aa9e4eb]" name="validationofText" duration-ms="129" started-at="2021-10-06T23:09:15 IST" finished-at="2021-10-06T23:09:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationofText -->
+        <test-method status="PASS" signature="close()[pri:0, instance:mindtree.com.validateTextonHomePage@5aa9e4eb]" name="close" is-config="true" duration-ms="131" started-at="2021-10-06T23:09:15 IST" finished-at="2021-10-06T23:09:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- mindtree.com.validateTextonHomePage -->
+    </test> <!-- Checking Text -->
+  </suite> <!-- Suite -->
+</testng-results>
